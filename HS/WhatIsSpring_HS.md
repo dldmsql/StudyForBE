@@ -5,7 +5,7 @@
 - Spring Framework 특징
   - Spirng Framwork 사용 이유
   - Spring boot
-- 빌드 도구
+- 빌드 도구(Maven, Gradle)
 
 ## Spring이란
 Spring Framework를 간단하게 Spring이라고 부른다.
