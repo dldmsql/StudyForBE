@@ -1,11 +1,12 @@
-# keyword
+* keyword
 > JWT, Oauth, Access token, Refresh token, Http, stateless, connectionless, 
 > Node.js, spring bean, multi-thread, singleton
 
-# next week
+* next week
 1. node.js 멀티 쓰레드 
 2. refesh token 을 어떤 식으로 저장하고 사용하는가? access token도 저장하나 ?
 
+# Review of Studying week 2 
 > 목차
 > 1. 쿠키와 세션은 무엇인가 ( + HTTP )
 > 2. Oauth는 무엇인가
@@ -15,9 +16,9 @@
 
 ## 1. 쿠키와 세션은 무엇인가
 
-* 쿠키
+* 쿠키 <br/>
 쿠키는 사용자가 방문한 웹 사이트 서버가 사용자 컴퓨터에 저장하는 작은 기록 정보 파일을 말한다. 
-<br/>
+
 쿠키는 아래와 같은 특징을 갖는다.
 
 1. 쿠키 저장 시, 설정한 만료 시점까지 삭제 불가능하다.
@@ -26,9 +27,9 @@
 4. 쿠키가 필요한 이유는 HTTP의 특성( connectionless & stateless ) 때문이다.
 > HTTP는 상태 정보를 유지하지 않기 때문에 누가 요청을 보냈는지 모른다. 이 상태를 유지하기 위해 등장한 게, 쿠키이다. 
 
-* 세션
+* 세션<br/>
 세션은 일정 시간동안 같은 사용자로부터 들어오는 일련의 요청을 하나의 상태로 보고, 그 상태를 일정하게 유지시키는 기술이다.
-<br/>
+
 세션은 아래와 같은 특징을 갖는다.
 
 1. 세션 정보는 웹 서버에 저장한다.
@@ -54,7 +55,7 @@ HTTP는 Hypertext Transfer Protocol의 약자로, 인터넷 상 통신 규약을
 
 ### TCP에 대해 알아보자.
 HTTP는 IP/TCP 기반에서 동작한다. <br/>
-TCP는 OSI 7 계층에서 전송 계층에 해당한다. *전송계층*은 application 프로세스들 간의 논리적 통신을 제공한다. 즉, 네트워크 양 끝단에서 통신을 수행하는 당사자 간의 단대단 연결을 제공한다. <br/>
+TCP는 OSI 7 계층에서 전송 계층에 해당한다. **전송계층**은 application 프로세스들 간의 논리적 통신을 제공한다. 즉, 네트워크 양 끝단에서 통신을 수행하는 당사자 간의 단대단 연결을 제공한다. <br/>
 전송계층은 아래와 같은 기능을 제공한다.
 * 흐름 제어
 * 오류 제어
@@ -78,6 +79,8 @@ TCP는 OSI 7 계층에서 전송 계층에 해당한다. *전송계층*은 appli
 2. CLIENT <--ACK- SERVER
 3. CLIENT <--SYN,FIN- SERVER
 4. CLIENT -ACK--> SERVE
+
+> 클라이언트가 서버에 요청을 보내기 전에 연결 과정과 요청 후에 연결 해제 과정이다.
 
 ## 2. Oauth는 무엇인가
 회원에 관한 모든 동작을 타 서비스에 의탁하는 것을 말한다.
