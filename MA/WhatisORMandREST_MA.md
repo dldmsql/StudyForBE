@@ -106,7 +106,7 @@ REST API의 설계 규칙을 올바르게 지킨 시스템을 RESTful하다 말�
 >Spring에서 제공하는 HTTP Client로 REST API를 호출을 위한 함수를 제공하는 클래스.
 API endpont 호출을 간단하게 처리해준다.
 
-- Spring 4.x 부터 지원하는 Spring의 HTTP 통신 템플릿
+- Spring 3.x 부터 지원하는 Spring의 HTTP 통신 템플릿
 - HTTP 요청 후 Json, xml, String 과 같은 응답을 받을 수 있는 템플릿
 - RESTful 형식을 지원
 - 반복적인 코드를 줄여줌
