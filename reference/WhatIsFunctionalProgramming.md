@@ -7,6 +7,7 @@
 ## 1. Lambda Expression with memory 
 
 1. What is Lambda Expression
+
 Stream 연산들은 매개변수로 함수형 인터페이스를 받도록 되어있다. 그리고 Lambda Expression은 반환값으로 함수형 인터페이스를 반환하고 있다.
 > Stream은 JAVA 8에서 추가된 것으로, Lambda를 활용할 수 있는 기술 중 하나이다. <br/>
 > Stream은 데이터의 흐름으로, 배열 또는 컬렉션 인스턴스에 함수 여러 개를 조합해서 원하는 결과를 얻을 수 있다.<br/>
@@ -26,6 +27,7 @@ Lambda Expression은 함수를 하나의 식(Expression)으로 표현한 것을 
 
 
 2. What is Functional Interface 
+
 Java는 기본적으로 객체지향 언어이기 때문에 람다식으로 정의하는 순수 함수와 그렇지 않은 일반 함수를 다르게 취급한다. 이 둘을 구분하기 위해 등장한 것이 함수형 인터페이스이다.
 > 순수함수란?<br/>
 > 동일한 입력에 대해 항상 동일한 출력을 반환하는 함수를 말한다.<br/>
@@ -79,6 +81,7 @@ false
 [1급 객체가 무엇인가](https://velog.io/@reveloper-1311/%EC%9D%BC%EA%B8%89-%EA%B0%9D%EC%B2%B4First-Class-Object%EB%9E%80)
 
 3. What is JVM
+
 Java Virtual Machine은 자바와 운영체제 사이에서 중개자 역할을 수행하며, 자바가 운영체제에 구애받지 않고 프로그램을 실행할 수 있도록 도와준다. 또한, GC를 사용하여 메모리를 자동으로 관리하며, 다른 하드웨어와 다르게 Stack 기반으로 동작한다.
 
 **[JAVA 프로그램 실행 단계]**<br/>
@@ -97,14 +100,23 @@ JVM은 Garbage Collector, Execution Engine, Class Loader, Runtime Data Area로 �
 
 **Runtime Data Area**<br/>
 1. Method 
+
 모든 Thread가 공유하는 메모리 영역이다. 클래스, 인터페이스, 메소드, 필드, static 변수 등의 바이트 코드를 보관한다.
+
 2. Heap
+
 모든 Thread가 공유하는 메모리 영역이다. New 키워드로 생성된 객체와 배열이 생성되는 영역이다. method 영역에 로드된 클래스만 생성이 가능하고, GC가 참조되지 않는 메모릴 확인하고 제거하는 영역이다.
+
 3. Stack
+
 메소드 호출 시마다 각각의 Stack Frame을 생성한다. 메소드 안에서 사용되는 값들을 저장하고, 호출된 메소드의 매개변수, 지역변수, 리턴 값 및 연산 시 일어나는 값을 임시로 저장한다. 메소드 수행이 끝나면 Frame별로 삭제한다. 
+
 4. PC Register
+
 Thread가 시작될 때 생성되며, 생성될 때마다 함께 생성되는 공간이다. 현재 수행 중인 JVM 명령의 주소를 갖고 있다.
+
 5. Native Method Stack
+
 자바 외 언어로 작성된 네이티브 코드를 위한 메모리 영역이다.
 
 [JVM 정리 잘했다.](https://steady-coding.tistory.com/305)
