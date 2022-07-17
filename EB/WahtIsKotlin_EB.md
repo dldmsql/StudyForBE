@@ -49,3 +49,13 @@ js로토 컴파일이 가능하다. 코틀린 코드를 js로 컴파일해서 �
 data science 시각화 라이브러리들이 조금씩 등장하면서 파이썬과 같이 작용할 것으로 기대한다.
 
 [코틀린 정리](https://incomeplus.tistory.com/343)
+
+**코틀린 컴파일 과정**
+
+.kt 파일을 Kotlinc ( 코틀린 컴파일러 )가 컴파일하여 .class 파일을 생성한다.
+
+이 과정에서 Kotlin 코드가 참조하는 Java 코드가 함께 로딩되어 사용된다.
+
+javac ( 자바 컴파일러 )가 .java 파일을 컴파일하여 .class 파일을 생성한다.
+
+이때 이미 kotlinc가 컴파일한 .class 파일의 경로를 class path에 추가하여 컴파일한다.

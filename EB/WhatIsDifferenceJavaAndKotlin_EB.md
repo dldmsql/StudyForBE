@@ -109,3 +109,23 @@ java는 jvm용 바이트코드로 컴파일되며 , Nashorn 및 Rhino JS 엔진�
 kotlin은 바이트코드와 javascript 뿐만 아니라 네이티브 코드 컴파일도 지원한다.
 
 [영어로 된 사이트](https://www.baeldung.com/kotlin/java-vs-kotlin)
+
+**추가**
+
+10. 접근 제한자
+
+```` bash
+// java
+public : 모든 접근 허용
+protected : 같은 패키지 내에 있는 객체와 상속관계의 객체들만 허용
+default :  같은 패키지에 있는 객체들만 허용
+private : 현재 객체 내에서만 허용
+
+// kotlin
+public : 모든 접근 허용
+protected : 같은 패키지 내에 있는 객체와 상속관계의 객체들만 허용
+private : 현재 객체 내에서만 허용
+internal : 같은 모듈 내에서 접근 허용 ( 즉, 같은 프로젝트 내에서 )
+````
+
+[코트린과 자바 차이](https://diqmwl-programming.tistory.com/115)
