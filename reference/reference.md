@@ -19,7 +19,6 @@
 ## Week 4
 [Auto-Generated Field for MongoDB using Spring Boot](https://www.baeldung.com/spring-boot-mongodb-auto-generated-field) </br>
 [mongoDB 개념잡기](https://velog.io/@swhan9404/mongoDB-%EA%B0%9C%EB%85%90%EC%9E%A1%EA%B8%B0) </br>
-
 [[Oracle] 오라클 데이터베이스 서버 아키텍처 간단 정리](https://myjamong.tistory.com/166) </br>
 [카카오뱅크는 어떻게 MySQL로 데이터 유실을 막았을까](https://byline.network/2017/10/17-6/) </br>
 [JPA 테스트 코드 및 API 작성_h2 db](https://katfun.tistory.com/entry/Spring-Boot-3-2) </br>
