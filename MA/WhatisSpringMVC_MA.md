@@ -52,6 +52,8 @@ https://i.imgur.com/blr7x6q.png
   - 각 서비스에서는 DB 접근할 수 있는 Repository 객체를 이용하여 데이터에 접근할 수 있다.
 - 컨트롤러는 서비스에서의 로직 처리 후, 결과를 뷰 리졸버를 거쳐 뷰 파일을 렌더링하여 내보낸다.
   - ViewResolver 객체가 이 역할을 한다.
-## 참고
+  
+## 참고 자료
 https://dailyheumsi.tistory.com/159 </br>
-https://chanhuiseok.github.io/posts/spring-3/
+https://chanhuiseok.github.io/posts/spring-3/ </br>
+https://gmlwjd9405.github.io/2018/12/20/spring-mvc-framework.html
