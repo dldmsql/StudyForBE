@@ -25,3 +25,33 @@
 [in-memory DB는 왜 더 빠를까](https://2kindsofcs.tistory.com/40) </br>
 [Spring MVC framework](https://velog.io/@miscaminos/Spring-MVC-framework)
 
+## Week 5
+[Gradle과 함께하는 Backend Layered Architecture](https://medium.com/riiid-teamblog-kr/gradle%EA%B3%BC-%ED%95%A8%EA%BB%98%ED%95%98%EB%8A%94-backend-layered-architecture-97117b344ba8)
+
+[웹 서버와 WAS의 차이를 쉽게 알아보자](https://codechasseur.tistory.com/25)
+
+[Spring의 시작, 프레임워크의 구성요소와 동작원리](https://asfirstalways.tistory.com/334)
+
+[Spring Security](https://okimaru.tistory.com/66)
+
+[Spring Security-Security Filter 기본](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=kbh3983&logNo=220932183498)
+
+[RESTful API 서버를 위협하는 한글자, 슬래시](https://yozm.wishket.com/magazine/detail/1347/)
+
+[MVVM vs MVC 장점과 단점](https://scshim.tistory.com/407)
+
+[HTTP 프로토콜 1.0 vs 1.1 vs 2.0](https://hirlawldo.tistory.com/106)
+
+[HTTP/3는 왜 UDP를 선택한 것일까?](https://evan-moon.github.io/2019/10/08/what-is-http3/)
+
+[Server Push 개념](https://insomniachaos.tistory.com/94)
+
+[나만 모르고 있던 - HTTP/2](https://www.popit.kr/%EB%82%98%EB%A7%8C-%EB%AA%A8%EB%A5%B4%EA%B3%A0-%EC%9E%88%EB%8D%98-http2/)
+
+[Spring boot 코드와 함께 보는 백엔드 서버 아키텍처](https://tech.junhabaek.net/spring-boot-%EC%BD%94%EB%93%9C%EC%99%80-%ED%95%A8%EA%BB%98-%EB%B3%B4%EB%8A%94-%EB%B0%B1%EC%97%94%EB%93%9C-%EC%84%9C%EB%B2%84-%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98-%EC%8B%9C%EB%A6%AC%EC%A6%88-%EC%86%8C%EA%B0%9C-%EA%B8%B0%EB%B3%B8-%EA%B5%AC%EC%A1%B0-bbf814e1b4e3)
+
+[카카오페이지는 BFF를 어떻게 적용할까?](https://fe-developers.kakaoent.com/2022/220310-kakaopage-bff/)
+
+[WebSocket과 채팅](https://dev-gorany.tistory.com/212)
+
+[인메모리 데이터 저장소 Redis, 왜 사용할까?](https://zangzangs.tistory.com/72)
