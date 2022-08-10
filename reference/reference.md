@@ -55,3 +55,10 @@
 [WebSocket과 채팅](https://dev-gorany.tistory.com/212)
 
 [인메모리 데이터 저장소 Redis, 왜 사용할까?](https://zangzangs.tistory.com/72)
+
+## Week 6
+[빌드와 배포](https://startupdevelopers.tistory.com/237#74a51821-f0ee-4c8d-82d5-f90c011296d6)
+
+[[Infra] 무중단 배포 방식(Rolling / BlueGreen / Canary)](https://llshl.tistory.com/47)
+
+[Foreign Key 없이 구축하는 관계형 데이터베이스 시스템에 대한 생각](https://engineering-skcc.github.io/oracle%20tuning/foreign_key_%EC%97%86%EC%9D%B4_%EA%B5%AC%EC%B6%95%ED%95%98%EB%8A%94_DB/)
