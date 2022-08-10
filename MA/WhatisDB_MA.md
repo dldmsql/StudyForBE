@@ -98,15 +98,16 @@
 - 스키마로 인해 데이터가 유연X 
  
 #### NoSQL
-
 - 스키마가 없어 유연하며 자유로운 데이터 구조(언제든 저장된 데이터를 조정하고 새로운 필드를 추가 가능)
 - 데이터 분산이 용이하며 Scale-up, Scale-out 가능
 - 데이터 중복 발생 가능
 스키마가 존재하지 않기에 명확한 데이터 구조를 보장하지 않으며 데이터 구조 결정가 어려울 수 있습니다.
 
+## 참고자료
  https://bio-info.tistory.com/98 </br>
  https://hongong.hanbit.co.kr/%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-databasedb-dbms-sql%EC%9D%98-%EA%B0%9C%EB%85%90/ </br>
  https://khj93.tistory.com/entry/Database-RDBMS%EC%99%80-NOSQL-%EC%B0%A8%EC%9D%B4%EC%A0%90 </br>
  https://www.mongodb.com/ko-kr/nosql-explained
+ 
  
  
