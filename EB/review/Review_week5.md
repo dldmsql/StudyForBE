@@ -110,7 +110,7 @@ SecurityFilterChain은 FilterChainProxy에서의 요청에 대해 호출해야�
 DelegatingFilterProxy라는 기술로 spring bean으로 filter를 등록하여 사용할 수 있게 되었다. 그런데 FilterChainProxy를 사용해 프록시를 한 번 더 사용하는 이유는 무엇일까??? FilterChainProxy를 사용하면 아래와 같은 이점이 있기 때문이다.
 
 1. 모든 Spring Security의 서블릿 이용에 대한 시작점을 제공한다.
-따라서 문제가 생김녀 FilterChainProxy에 디버깅 포인트를 잡아서 빠르게 오류를 수정할 수 있다.
+따라서 문제가 생기면 FilterChainProxy에 디버깅 포인트를 잡아서 빠르게 오류를 수정할 수 있다.
 2. Spring Security의 중심점으로 잡으로서 선택이 아닌 필수적 작업들이 누락없이 실행된다. 
 예를 들어, 메모리 낭비를 방지해 SecurityContext를 지우거나 Http Firewall를 적용하여 특정 공격으로부터 어플리케이션을 보호한다.
 3. SecurityFilterChain의 호출시기를 유연하게 조저랗ㄹ 수 있다. 
