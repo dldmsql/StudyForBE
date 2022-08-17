@@ -75,8 +75,6 @@
 > Gradle이 Mavne 보다 더 효율적이고 강력한 기능을 제공 </br>
 Gradle은 버전 충돌 또한 관리
 
-
-
 ### Deploy란? 
 > 배포란 작성한 코드를 빌드하고, 빌드가 완성된 실행 가능한 파일(jar, war)을 사용자가 접근할 수 있는 환경에 배치하는 작업
 
@@ -96,6 +94,7 @@ Gradle은 버전 충돌 또한 관리
 >Build = Complie + 그 외 작업 </br>
 Run = Build + 실행</br>
       = (Complie + 그외작업) + 실행
+
 ## 참고자료
 https://datalibrary.tistory.com/23 </br>
 https://kimvampa.tistory.com/27 </br>
