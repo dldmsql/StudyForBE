@@ -62,3 +62,21 @@
 [[Infra] 무중단 배포 방식(Rolling / BlueGreen / Canary)](https://llshl.tistory.com/47)
 
 [Foreign Key 없이 구축하는 관계형 데이터베이스 시스템에 대한 생각](https://engineering-skcc.github.io/oracle%20tuning/foreign_key_%EC%97%86%EC%9D%B4_%EA%B5%AC%EC%B6%95%ED%95%98%EB%8A%94_DB/)
+
+## Week 7
+[[Java]Collection vs Collections 차이점?](https://yeon-kr.tistory.com/113)
+
+[자료구조 | Java Collections와 Collection의 차이](https://live-everyday.tistory.com/85)
+
+[[JAVA] 컬렉션 프레임워크 -Collection 인터페이스와 Map 인터페이스](https://velog.io/@kekim20/JAVA-%EC%BB%AC%EB%A0%89%EC%85%98-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC-Collection-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EC%99%80-Map-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4)
+
+[[JAVA] JVM 동작 원리 및 기본 개념](https://yaelimeee.tistory.com/70)
+
+[[JAVA] JVM 동작원리 및 기본개념](https://steady-snail.tistory.com/67)
+
+[Stack과 Heap.. 그리고 Garbage Collection](https://thisisprogrammingworld.tistory.com/178)
+
+[[Java] Garbage Collection(가비지 컬렉션)의 개념 및 동작 원리 (1/2)](https://mangkyu.tistory.com/118)
+
+[Swagger와 Spring Restdocs의 우아한 조합 (by OpenAPI Spec)](https://taetaetae.github.io/posts/a-combination-of-swagger-and-spring-restdocs/
+)
