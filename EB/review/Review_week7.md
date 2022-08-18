@@ -2,7 +2,7 @@
 
 ## Docker with spring application architecture
 
-[그림 넣기]()
+![image](https://user-images.githubusercontent.com/61505572/185344878-2ca44f53-0410-4a4c-a1dd-157b9aa6337d.png)
 
 위의 아키텍처는 아래와 같은 상황을 전제로 한다.
 
