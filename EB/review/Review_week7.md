@@ -28,7 +28,7 @@
 
 ## SSL Flow
 
-[그림 넣기]()
+![image](https://user-images.githubusercontent.com/61505572/186295428-057b373e-2090-44fe-9c73-bbdeeab8b47a.png)
 
 1. client hello
 
