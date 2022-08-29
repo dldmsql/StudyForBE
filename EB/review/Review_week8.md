@@ -225,7 +225,7 @@ ClassLoader는 이외에도 Loading, Linking, Initialization 3가지 역할을 �
 
 static field 값들을 정의한 값으로 초기화하는 과정
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28ba3b77-56e1-468d-98b7-69fa1263a1d4/Untitled.png)
+![image](https://user-images.githubusercontent.com/61505572/187200654-87b82c63-f39a-4cc2-b6ec-d913d64a3fab.png)
 
 - 부트스트랩 클래스 로더
 
@@ -247,17 +247,15 @@ Java API들을 로드한다.
 
 ClassLoader가 필요한 클래스 파일들을 찾아 메모리에 적재하는 것을 말한다. 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/622128e3-01a7-4e7e-b6e9-4f36bb22d796/Untitled.png)
+![image](https://user-images.githubusercontent.com/61505572/187200698-0025860b-bbf0-4c32-9937-9e684598f053.png)
 
 위의 그림에 보여지는 코드와 명령어는 클래스 로더를 테스트하기 위한 것이다. 부트스트랩 클래스 로더는 rt.jar 파일을 찾아 JVM에 올리고, 익스텐션 클래스 로더는 lib/ext 파일을 찾아 JVM에 올린다. 어플리케이션 클래스 로더는 시스템 클래스 로더라고도 하며, classpath에 있는 클래스들을 탑재한다. 
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ca155339-f060-4847-aeb2-43d864518720/Untitled.png)
+![image](https://user-images.githubusercontent.com/61505572/187200721-f193dc25-c023-46eb-9c83-c9893e0f22aa.png)
 
 ### 왜 부트스트랩 클래스 로더는 null 값이지?
 
-![[https://stackoverflow.com/questions/18214174/how-is-the-java-bootstrap-classloader-loaded](https://stackoverflow.com/questions/18214174/how-is-the-java-bootstrap-classloader-loaded)](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e1a6450-da63-448f-b165-d2d5ea87e4a6/Untitled.png)
-
-[https://stackoverflow.com/questions/18214174/how-is-the-java-bootstrap-classloader-loaded](https://stackoverflow.com/questions/18214174/how-is-the-java-bootstrap-classloader-loaded)
+![image](https://user-images.githubusercontent.com/61505572/187200758-00a22995-1f3b-4a47-830d-7682feace5c6.png)
 
 JVM이 시작되면 부트스트랩 클래스 로더가 실행된다. 이건 기계 명령어 즉, C나 C++ 같이 네이티브 코드로 작성되어 있다. 
 
@@ -271,7 +269,7 @@ Loading 과정에서는 하위 클래스로더가 로딩한 클래스 파일은 
 
 로드된 클래스 파일을 검증하고 사용할 수 있게 준비하는 과정을 의미한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7f6a5b65-4b59-4c7d-8bf8-54aa1168232a/Untitled.png)
+![image](https://user-images.githubusercontent.com/61505572/187200789-3e20deeb-c97b-4c02-a2b3-cc12891d548c.png)
 
 1. verify
 
@@ -289,7 +287,7 @@ Loading 과정에서는 하위 클래스로더가 로딩한 클래스 파일은 
 
 클래스 파일의 코드를 읽는 과정이다. 이때 JVM은 멀티 스레딩으로 작동하며, 같은 시간에 한 번에 초기화를 하는 경우가 있기 때문에 초기화 단계에서도 동시성을 고려해야 한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/49610fd1-308b-4bf9-9af8-afb3ce12334d/Untitled.png)
+![image](https://user-images.githubusercontent.com/61505572/187200821-46bad0b4-879e-4a5d-b839-28e8c07ad0a9.png)
 
 ### JAVA 9버전 이후의 변경
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7c50416e-e20e-485c-bc43-8ba895945bac/Untitled.png)
+![image](https://user-images.githubusercontent.com/61505572/187200840-a5054f95-8966-4121-a3f4-f394c6be331a.png)
